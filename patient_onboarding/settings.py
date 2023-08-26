@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-1=t4m3ptmn!&n5#@!=-ambyoo=1q_ac+!rd34^ywn7st9-*hx$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'patient_onboarding'
 ]
 
 MIDDLEWARE = [
